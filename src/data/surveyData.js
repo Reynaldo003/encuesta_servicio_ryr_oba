@@ -57,9 +57,9 @@ export const pasos = [
   {
     id: "nombre",
     tipo: "texto",
-    etiqueta: "Nombre",
+    etiqueta: "Nombre / O.S.",
     titulo: "¿Cómo le gustaría identificarse?",
-    placeholder: "Escriba su nombre",
+    placeholder: "Escriba su nombre u orden de servicio",
   },
   {
     id: "asesor",
@@ -68,41 +68,38 @@ export const pasos = [
     titulo: "¿Qué asesor le atendió?",
   },
   {
-    id: "motivo",
-    tipo: "motivo",
-    etiqueta: "Motivo",
-    titulo: "¿Qué le motivó a visitar la agencia?",
+    id: "agendaCita",
+    tipo: "calificacion",
+    etiqueta: "Agenda de cita",
+    titulo: "¿Qué tan satisfecho está con la forma en la cual agendó su cita?",
   },
   {
-    id: "amabilidad",
+    id: "atencionAsesor",
     tipo: "calificacion",
-    etiqueta: "Amabilidad",
-    titulo: "¿Cómo fue la amabilidad y trato de su asesor?",
-  },
-  {
-    id: "seguimiento",
-    tipo: "calificacion",
-    etiqueta: "Seguimiento",
-    titulo: "¿Cómo evaluaría el seguimiento de su asesor?",
-  },
-  {
-    id: "entrega",
-    tipo: "calificacion",
-    etiqueta: "Entrega",
-    titulo: "¿Cómo ha sido el tiempo de entrega de su unidad?",
-  },
-  {
-    id: "satisfaccion",
-    tipo: "calificacion",
-    etiqueta: "Satisfacción",
+    etiqueta: "Atención del asesor",
     titulo:
-      "¿Qué tan satisfecho está con la experiencia de recibir su auto nuevo?",
+      "¿Qué tan satisfecho se encuentra con el trato y seguimiento que le ha brindado su Asesor de Servicio?",
+  },
+  {
+    id: "calidadPrecio",
+    tipo: "calificacion",
+    etiqueta: "Calidad / precio",
+    titulo:
+      "Califique su percepción del precio final con respecto a la calidad del servicio que se le proporcionó",
+  },
+  {
+    id: "satisfaccionServicio",
+    tipo: "calificacion",
+    etiqueta: "Satisfacción general",
+    titulo:
+      "En general, ¿qué tan satisfecho se encuentra con el servicio que se le proporcionó en Automotriz R&R?",
   },
   {
     id: "comentario",
     tipo: "comentario",
     etiqueta: "Comentario",
-    titulo: "Si gusta, compártanos un comentario final",
+    titulo:
+      "¿Algún comentario que guste hacer sobre su experiencia en servicio en Automotriz R&R?",
     placeholder: "Escriba aquí su comentario...",
   },
 ];
