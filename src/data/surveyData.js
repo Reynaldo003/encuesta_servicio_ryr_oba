@@ -1,15 +1,7 @@
 export const asesores = [
-  "Jesús Edgar Gómez Pérez",
-  "Rubén Romero Valdés",
-  "Iván Juárez Ortega",
-  "Idalmy Jiménez Sánchez",
-  "Jessica Olivares Campos",
-  "María del Carmen Zavala",
-  "Jessica Olivares",
-  "Delmar Javier Illescas Domínguez",
-  "Luis Alfonso Coria Marroquín",
-  "Héctor Rodríguez",
-  "Verónica Castillo",
+  "Carlos Oliveros",
+  "Norma Angélica Reyes",
+  "Francisco Olayo",
 ];
 
 export const motivos = [
